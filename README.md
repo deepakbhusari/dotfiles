@@ -11,3 +11,8 @@ oh-my-zsh, anti-gen
  
 Antigen : plugin manager for zsh.
 
+#clone the directory in folder , ensure to backup files , if the folder .dotfiles is present.
+
+git clone https://github.com/deepakbhusari/dotfiles.git .dotfiles
+
+
