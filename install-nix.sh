@@ -23,11 +23,11 @@ nixpkgs.ripgrep
 
 #dot files are in folder ~/.dotfiles
 # stow configuration files
-stow zsh
-stow antigen
-stow git
-stow nvim
-stow tmux
+stow -v zsh
+stow -v antigen
+stow -v git
+stow -v nvim
+stow -v tmux
 
 # add zsh shell to / etc/shell command -v zsh | sudo tee -a /etc/shells
 sudo sh -c "echo $(which zsh) >> /etc/shells"
