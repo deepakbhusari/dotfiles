@@ -18,8 +18,8 @@ nixpkgs.fzf \
 nixpkgs.yarn \ 
 nixpkgs.oh-my-zsh \
 nixpkgs.antigen \
-nixpkgs.ripgrep 
-
+nixpkgs.ripgrep \
+nixpkgs.python38
 
 #dot files are in folder ~/.dotfiles
 # stow configuration files

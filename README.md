@@ -15,4 +15,6 @@ Antigen : plugin manager for zsh.
 
 git clone https://github.com/deepakbhusari/dotfiles.git .dotfiles
 
+#display the software installed on mac os
+nix-store -q --requisites "${HOME}/.nix-profile"
 
