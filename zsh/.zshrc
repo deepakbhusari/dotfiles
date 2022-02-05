@@ -1,5 +1,5 @@
 #PROMPT = '%1~ %# '
-source ./antigen.zsh
+source ~/./antigen.zsh
 
 # Load Antigen configurations
 antigen init ~/.antigenrc

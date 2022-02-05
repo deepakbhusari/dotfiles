@@ -1,4 +1,4 @@
-"leader mapping
+"leader mapping (<Space>)
 let mapleader=" "
 
 "vi configuration
@@ -146,11 +146,13 @@ nnoremap <silent>_= :call Preserve("normal gg=G")<CR>
     nnoremap <F10> :up<CR>
 
 " Shows the changes made since last save
-    nnoremap <Leader>C :w !diff % -<CR>
+nnoremap <Leader>C :w !diff % -<CR>
 
-    nnoremap <leader>y "+y
-    nnoremap <leader>p "_dP
-
+" Copy and paste with system clipboard
+nnoremap <leader>y "+y
+nnoremap <leader>p "_dP
+vnoremap <C-c> "+y
+inoremap <C-v> <C-r>+
 
 "mappings
 
